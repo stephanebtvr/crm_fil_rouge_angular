@@ -18,4 +18,7 @@ export class PageListOrdersComponent implements OnInit {
   }
 
   ngOnInit(): void {}
+  public changeTitle(): void {
+    this.title = 'Le titre a changé';
+  }
 }
